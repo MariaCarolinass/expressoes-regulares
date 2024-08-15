@@ -29,9 +29,20 @@ Esses símbolos possuem significados diferentes e mostram como a expressão ser�
 ### Funções do RegEx
 
 - `re.match(padrao, texto)`
+
+  Procura pelo padrão no início do texto e retorna a posição do texto na busca.
+  
 - `re.search(padrao, texto)`
+  
+  Procura pelo padrão em todo o texto e retorna a posição do texto na busca.
+  
 - `re.findall(padrao, texto)`
+
+  Procura as ocorrências do texto por todo o padrão e retorna uma lista da busca. 
+  
 - `re.sub(padrao, substituir, texto)`
+
+  Procura as ocorrências do texto por todo o padrão, substitui por outro texto e retorna a busca com as substituições. 
 
 ## Links
 
