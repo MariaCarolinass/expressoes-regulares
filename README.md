@@ -44,6 +44,10 @@ Esses símbolos possuem significados diferentes e mostram como a expressão ser�
 
   Procura as ocorrências do texto por todo o padrão, substitui por outro texto e retorna a busca com as substituições. 
 
+### Utilizando o RegEx
+
+
+
 ## Links
 
 - [Regex: o guia essencial das expressões regulares](https://blog.dp6.com.br/regex-o-guia-essencial-das-express%C3%B5es-regulares-2fc1df38a481)
