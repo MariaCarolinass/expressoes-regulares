@@ -12,11 +12,13 @@ Importando a módulo re:
 
 ### Escrevendo uma expressão regular
 
-Definimos um padrão regex com a letra `r` e em seguida entre as aspas a expressão a ser encontrada:
+Definimos um padrão regex com a letra `r`, assim deixamos explícito que estamos tratando de uma expressão regular, em seguida entre as aspas escrevemos a expressão que será encontrada em um texto:
 
     padrao = r"expressao"
 
-O regex é escrito como uma combinação de caracteres com alguns símbolos reservados chamados de **metacaracteres**: 
+Não é necessário a utilização do `r`, mas é recomendado para evitar possíveis divergências do regex com o Python.
+
+O regex é escrito como uma **combinação de caracteres** com alguns símbolos reservados chamados de **metacaracteres**: 
 
     . ? * + ^ $ | — [ ] { } ( ) \
 
@@ -25,6 +27,11 @@ Esses símbolos possuem significados diferentes e mostram como a expressão ser�
 ![image](https://github.com/user-attachments/assets/c6a548b2-7cca-438e-8e58-157d663f028a)
 
 ### Funções do RegEx
+
+- `re.match(padrao, texto)`
+- `re.search(padrao, texto)`
+- `re.findall(padrao, texto)`
+- `re.sub(padrao, substituir, texto)`
 
 ## Links
 
