@@ -46,8 +46,7 @@ Esses símbolos possuem significados diferentes e mostram como a expressão ser�
 
 ### Utilizando o RegEx
 
-- [Limpando dados de um texto](https://github.com/MariaCarolinass/expressoes-regulares/blob/main/limpar_dados_sensor.py)
-- [Verificando intensidade de uma senha](https://github.com/MariaCarolinass/expressoes-regulares/blob/main/verificar_senha.py)
+- [Exercícios](https://github.com/MariaCarolinass/expressoes-regulares/tree/main/exercicios)
 
 ## Links
 
